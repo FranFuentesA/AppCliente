@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nueva_resera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fran.aplicacioncliente.NuevaReservaActivity"
+    android:background="@drawable/fondo2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="300dp"
+        android:gravity="center_vertical"
+        android:padding="30dp"
+        tools:ignore="UnknownId"
+        android:layout_height="220dp">
+
+        <CheckBox
+            android:text="Mesa Paris (2 Personas)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:text="Mesa Viena (2 Personas)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:text="Mesa Londres (4 Personas)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:text="Mesa Moscú (4 Personas)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:text="Mesa Barcelona (6 Personas)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fondo"
+            android:id="@+id/imageView2"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_menu_add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="ventana" />
+
+    <TextView
+        android:text="Añadir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

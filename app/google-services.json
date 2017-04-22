@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1026497304984",
+    "firebase_url": "https://proyectogradosuperior-c705b.firebaseio.com",
+    "project_id": "proyectogradosuperior-c705b",
+    "storage_bucket": "proyectogradosuperior-c705b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026497304984:android:0e16d02d7b69c69e",
+        "android_client_info": {
+          "package_name": "com.example.fran.aplicacioncliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026497304984-n669o5kkf52t6akamnr73b4pmqqg1hlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAztU8cL5VEKVlhe3gVWVNWfKLTsukjKE0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reservas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fran.aplicacioncliente.ReservasActivity"
+    android:background="@drawable/fondo2">
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/buttonAyuda"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_menu_help" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="182dp"
+        android:id="@+id/buttonReservarMesa"
+        android:layout_alignParentEnd="true"
+        android:layout_height="150dp"
+        tools:ignore="HardcodedText"
+        android:background="@drawable/reservar"
+        android:text="RESERVAR"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:shadowColor="@android:color/background_dark" />
+
+    <Button
+        android:text="GESTIONAR"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/buttonReservarMesa"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/buttonOpcionesReserva"
+        tools:ignore="HardcodedText"
+        android:background="@drawable/gestionreserva"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="Reservas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textViewTituloReservas"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
